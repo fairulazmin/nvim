@@ -5,6 +5,10 @@
 git clone https://github.com/fairulazmin/nvim ~/.config/nvim
 ```
 
+open neovim and run CocInstall command
+```
+:CocInstall coc-css coc-emmet coc-explorer coc-json coc-prettier coc-python coc-tsserver coc-vimlsp
+```
 ---
 
 # Commands / Shortcuts
