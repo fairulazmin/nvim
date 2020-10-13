@@ -12,6 +12,16 @@ open neovim and run CocInstall command
 ---
 
 # Commands / Shortcuts
+## Run command in buffer
+### Python
+```
+:!python3 filename
+```
+### Javascript
+```
+:!node %
+```
+
 ## [Vim](https://gist.github.com/tuxfight3r/0dca25825d9f2608714b)
 ### NORMAL MODE -> INSERT MODE
 ```
