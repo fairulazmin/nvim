@@ -1,8 +1,9 @@
 "change leader key form default '\' to <Space>
 let mapleader=" "
 
-" escape from insert mode using kj key
+" escape from insert/visual mode using kj key
 inoremap kj <Esc>
+xnoremap kj <Esc>
 
 " TAB in general mode will move to text buffer
 nnoremap <TAB> gt
