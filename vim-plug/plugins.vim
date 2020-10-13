@@ -12,10 +12,11 @@ call plug#begin('~/.vim/autoload/plugged')
 	Plug 'dracula/vim',{'as':'dracula'}
 	Plug 'airblade/vim-gitgutter'
 	Plug 'kien/rainbow_parentheses.vim'
-  Plug 'jiangmiao/auto-pairs'	
+        Plug 'jiangmiao/auto-pairs'	
 	Plug 'tpope/vim-commentary'
 	Plug 'justinmk/vim-sneak'
 	Plug 'terryma/vim-multiple-cursors'
+	Plug 'mhinz/vim-startify'
 
 	" Use release branch (recommend)
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
