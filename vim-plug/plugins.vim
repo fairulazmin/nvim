@@ -17,7 +17,8 @@ call plug#begin('~/.vim/autoload/plugged')
 	Plug 'justinmk/vim-sneak'
 	Plug 'terryma/vim-multiple-cursors'
 	Plug 'mhinz/vim-startify'
-
+	Plug 'yggdroot/indentline'
+	
 	" Use release branch (recommend)
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	
