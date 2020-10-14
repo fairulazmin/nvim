@@ -15,7 +15,7 @@ open neovim and run CocInstall command
 ## Run command in buffer
 ### Python
 ```
-:!python3 filename
+:!python3 %
 ```
 ### Javascript
 ```
