@@ -175,3 +175,8 @@ gc             -   comment out the selection in visual mode
 <Ctrl>+x       -   skip the next match
 <Ctrl>+p       -   remove current virtual cursor + selection and go back on previous match
 ```
+
+## [Tagbar](https://github.com/preservim/tagbar)
+```
+<F8>           -   open tagbar
+```
