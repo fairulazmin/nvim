@@ -98,7 +98,7 @@ kj                -   escape from insert/visual mode
 s                 -   open and split current window horizontally
 E                 -   open and split current window vertically
 t                 -   open in new tab
-.                 -   toggleHidden
+.                 -   toggle hidden files
 gf                -   gotoSource:file
 gb                -   gotoSource:buffer
 
