@@ -7,3 +7,4 @@ source $HOME/.config/nvim/vim-plug/coc.vim
 source $HOME/.config/nvim/vim-plug/prettier.vim
 source $HOME/.config/nvim/vim-plug/rainbow.vim
 source $HOME/.config/nvim/vim-plug/sneak.vim
+source $HOME/.config/nvim/vim-plug/tagbar.vim
