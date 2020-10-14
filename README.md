@@ -12,15 +12,6 @@ open neovim and run CocInstall command
 ---
 
 # Commands / Shortcuts
-## Run command in buffer
-### Python
-```
-:!python3 %
-```
-### Javascript
-```
-:!node %
-```
 
 ## [Vim](https://gist.github.com/tuxfight3r/0dca25825d9f2608714b)
 ### NORMAL MODE -> INSERT MODE
@@ -85,10 +76,11 @@ gT                  -   go to previous tab
 kj                -   escape from insert/visual mode
 <Tab>             -   go to next buffer
 <Shift>+<Tab>     -   go to previous buffer
-<Alt>+j           -   decrease size horizontally
-<Alt>+k           -   increase size horizontally
-<Alt>+h           -   decrease size vertically
-<Alt>+l           -   increase size vertically
+<Alt>+j           -   decrease window size horizontally
+<Alt>+k           -   increase window size horizontally
+<Alt>+h           -   decrease window size vertically
+<Alt>+l           -   increase window size vertically
+<F9>              -   run python or javascript code
 ```
 
 ## [Coc explorer](https://github.com/weirongxu/coc-explorer) (Neovim only)
