@@ -82,7 +82,7 @@ gT                  -   go to previous tab
 
 ## Key mapping
 ```
-kj                -   escape from insert
+kj                -   escape from insert/visual mode
 <Tab>             -   go to next buffer
 <Shift>+<Tab>     -   go to previous buffer
 <Alt>+j           -   decrease size horizontally
