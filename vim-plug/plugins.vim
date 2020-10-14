@@ -18,6 +18,7 @@ call plug#begin('~/.vim/autoload/plugged')
 	Plug 'terryma/vim-multiple-cursors'
 	Plug 'mhinz/vim-startify'
 	Plug 'yggdroot/indentline'
+	Plug 'majutsushi/tagbar'
 	
 	" Use release branch (recommend)
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
