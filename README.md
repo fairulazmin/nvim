@@ -172,3 +172,24 @@ gc             -   comment out the selection in visual mode
 ```
 <F8>           -   open tagbar
 ```
+
+## [Tabular](https://vimawesome.com/plugin/tabular)
+```
+<Leader>a#     -   align region at #
+<Leader>a%     -   align region at %
+<Leader>a&     -   align region at &
+<Leader>a(     -   align region at (
+<Leader>a)     -   align region at )
+<Leader>a[     -   align region at [
+<Leader>a]     -   align region at ]
+<Leader>a{     -   align region at {
+<Leader>a}     -   align region at }
+<Leader>a,     -   align region at ,
+<Leader>a.     -   align region at .
+<Leader>a:     -   align region at :
+<Leader>a;     -   align region at ;
+<Leader>a=     -   align region at =
+<Leader>a-     -   align region at -
+<Leader>a"     -   align region at "
+<Leader>a'     -   align region at '
+```
