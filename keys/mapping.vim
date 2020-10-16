@@ -44,7 +44,7 @@ tnoremap <Esc> <C-\><C-n>
 :noremap > >>
 :noremap < <<
 
-" Mappings to move lines
+" Mapping to move lines
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>==
 inoremap <A-j> <Esc>:m .+1<CR>==gi
@@ -57,3 +57,39 @@ autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%,
 autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType javascript map <buffer> <F9> :w<CR>:exec '!node' shellescape(@%, 1)<CR>
 autocmd FileType javascript imap <buffer> <F9> <esc>:w<CR>:exec '!node' shellescape(@%, 1)<CR>
+
+" Tabular key mapping
+nmap <Leader>a# :Tab /#<CR>
+vmap <Leader>a# :Tab /#<CR>
+nmap <Leader>a% :Tab /%<CR>
+vmap <Leader>a% :Tab /%<CR>
+nmap <Leader>a& :Tab /&<CR>
+vmap <Leader>a& :Tab /&<CR>
+nmap <Leader>a( :Tab /(<CR>
+vmap <Leader>a( :Tab /(<CR>
+nmap <Leader>a) :Tab /)<CR>
+vmap <Leader>a) :Tab /)<CR>
+nmap <Leader>a[ :Tab /[<CR>
+vmap <Leader>a[ :Tab /[<CR>
+nmap <Leader>a] :Tab /]<CR>
+vmap <Leader>a] :Tab /]<CR>
+nmap <Leader>a{ :Tab /{<CR>
+vmap <Leader>a{ :Tab /{<CR>
+nmap <Leader>a} :Tab /}<CR>
+vmap <Leader>a} :Tab /}<CR>
+nmap <Leader>a, :Tab /,<CR>
+vmap <Leader>a, :Tab /,<CR>
+nmap <Leader>a. :Tab /.<CR>
+vmap <Leader>a. :Tab /.<CR>
+nmap <Leader>a: :Tab /:<CR>
+vmap <Leader>a: :Tab /:<CR>
+nmap <Leader>a; :Tab /;<CR>
+vmap <Leader>a; :Tab /;<CR>
+nmap <Leader>a= :Tab /=<CR>
+vmap <Leader>a= :Tab /=<CR>
+nmap <Leader>a- :Tab /-<CR>
+vmap <Leader>a- :Tab /-<CR>
+nmap <Leader>a" :Tab /"<CR>
+vmap <Leader>a" :Tab /"<CR>
+nmap <Leader>a' :Tab /'<CR>
+vmap <Leader>a' :Tab /'<CR>
