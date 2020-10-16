@@ -193,3 +193,8 @@ gc             -   comment out the selection in visual mode
 <Leader>a"     -   align region at "
 <Leader>a'     -   align region at '
 ```
+
+## [Whitespace](https://vimawesome.com/plugin/trailing-whitespace)
+```
+:FixWhitespac  -   fix the whitespace errors
+```
