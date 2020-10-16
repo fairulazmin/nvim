@@ -1,29 +1,19 @@
-call plug#begin('~/.vim/autoload/plugged') 
-	" Plugin for Git 
-	Plug 'tpope/vim-fugitive' 
-	
-	" Provide mappings to easily delete, change and add surroundings in pairs 
-	Plug 'tpope/vim-surround' 
-
-	" Plugin for vim-airline
-	Plug 'vim-airline/vim-airline'
-	Plug 'vim-airline/vim-airline-themes'
-
-	Plug 'dracula/vim',{'as':'dracula'}
-	Plug 'airblade/vim-gitgutter'
-	Plug 'kien/rainbow_parentheses.vim'
-        Plug 'jiangmiao/auto-pairs'	
-	Plug 'tpope/vim-commentary'
-	Plug 'justinmk/vim-sneak'
-	Plug 'terryma/vim-multiple-cursors'
-	Plug 'mhinz/vim-startify'
-	Plug 'yggdroot/indentline'
-	Plug 'majutsushi/tagbar'
-	Plug 'godlygeek/tabular'
-	
-	" Use release branch (recommend)
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-	
-	" Or build from source code by using yarn: https://yarnpkg.com
-	" Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+call plug#begin('~/.vim/autoload/plugged')
+	Plug 'tpope/vim-fugitive'                        " Plugin for Git
+	Plug 'tpope/vim-surround'                        " Provide mappings to easily delete, change and add surroundings in pairs
+	Plug 'vim-airline/vim-airline'                   " lean & mean status/tabline for vim that's light as air
+	Plug 'vim-airline/vim-airline-themes'            " A collection of themes for vim-airline
+	Plug 'dracula/vim',{'as':'dracula'}              " Dark theme for Vim
+	Plug 'airblade/vim-gitgutter'                    " A Vim plugin which shows a git diff in the sign column
+  Plug 'jiangmiao/auto-pairs'                      " Vim plugin, insert or delete brackets, parens, quotes in pair
+	Plug 'tpope/vim-commentary'                      " Comment stuff out
+	Plug 'justinmk/vim-sneak'                        " Jump to any location specified by two characters
+	Plug 'terryma/vim-multiple-cursors'              " Add virtual cursors on each line
+	Plug 'mhinz/vim-startify'                        " Fancy start screen for Vim
+	Plug 'galooshi/vim-import-js'                    " Vim plugin for ImportJS
+  Plug 'yggdroot/indentline'                       " A vim plugin to display the indention levels with thin vertical lines
+	Plug 'majutsushi/tagbar'                         " Vim plugin that displays tags in a window, ordered by scope
+	Plug 'godlygeek/tabular'                         " Vim script for text filtering and alignment
+	Plug 'bronson/vim-trailing-whitespace'           " Highlights trailing whitespace in red and provides :FixWhitespace to fix it
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}  " Intellisense engine for Vim8 & Neovim, full language server protocol support as VSCode
 call plug#end()
