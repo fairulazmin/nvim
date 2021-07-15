@@ -29,6 +29,11 @@ run CocInstall command
 ```
 :CocInstall coc-css coc-emmet coc-explorer coc-json coc-prettier coc-python coc-tsserver coc-vimlsp
 ```
+
+check health status
+```
+:checkhealth
+```
 ---
 
 # Commands / Shortcuts
