@@ -3,7 +3,7 @@
 # Install Neovim
 ```
 sudo apt install neovim
-'''
+```
 
 Clone this repository
 ```
