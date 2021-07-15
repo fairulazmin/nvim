@@ -1,11 +1,21 @@
 ![img](https://github.com/fairulazmin/nvim/blob/main/screenshot.png)
 
-# Clone this repo
+# Install Neovim
+```
+sudo apt install neovim
+'''
+
+Clone this repository
 ```
 git clone https://github.com/fairulazmin/nvim ~/.config/nvim
 ```
 
-open neovim and run CocInstall command
+open neovim and install plugins
+```
+:PlugInstall
+```
+
+run CocInstall command
 ```
 :CocInstall coc-css coc-emmet coc-explorer coc-json coc-prettier coc-python coc-tsserver coc-vimlsp
 ```
