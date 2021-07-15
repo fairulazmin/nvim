@@ -10,6 +10,7 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y nodejs
 ```
 
+Install neovim
 ```
 sudo npm install -g neovim
 ```
