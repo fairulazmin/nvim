@@ -2,7 +2,17 @@
 
 # Install Neovim
 ```
-sudo apt install neovim
+sudo npm install -g neovim
+```
+
+Install pip3
+```
+sudo apt install python3-pip
+```
+
+Upgrade pynvim
+```
+pip3 install --upgrade pynvim
 ```
 
 Clone this repository
