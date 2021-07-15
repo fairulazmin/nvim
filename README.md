@@ -1,7 +1,7 @@
 ![img](https://github.com/fairulazmin/nvim/blob/main/screenshot.png)
 
 # Install Neovim
-Install latest node
+Install latest [node](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
 ```
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
