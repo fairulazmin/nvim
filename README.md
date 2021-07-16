@@ -1,6 +1,6 @@
 ![img](https://github.com/fairulazmin/nvim/blob/main/screenshot.png)
 
-# Install Neovim
+# Install [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 Install latest [node](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
 ```
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
@@ -10,7 +10,8 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y nodejs
 ```
 
-Install neovim
+Install [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+Install neovim for Windows using [Chocolatey](https://chocolatey.org/) for win32yank to work.
 ```
 sudo npm install -g neovim
 ```
