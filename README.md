@@ -10,8 +10,7 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y nodejs
 ```
 
-Install [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
-Install neovim for Windows using [Chocolatey](https://chocolatey.org/) for win32yank to work.
+Install [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) for Windows using [Chocolatey](https://chocolatey.org/) for win32yank to work.
 ```
 sudo npm install -g neovim
 ```
