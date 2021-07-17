@@ -3,7 +3,9 @@ Plug 'tpope/vim-fugitive'                        " Plugin for Git
 Plug 'tpope/vim-surround'                        " Provide mappings to easily delete, change and add surroundings in pairs
 Plug 'vim-airline/vim-airline'                   " lean & mean status/tabline for vim that's light as air
 Plug 'vim-airline/vim-airline-themes'            " A collection of themes for vim-airline
-Plug 'dracula/vim',{'as':'dracula'}              " Dark theme for Vim
+"Plug 'dracula/vim',{'as':'dracula'}             " Dark theme for Vim
+Plug 'ayu-theme/ayu-vim'                         " Ayu theme
+Plug 'sheerun/vim-polyglot'
 Plug 'airblade/vim-gitgutter'                    " A Vim plugin which shows a git diff in the sign column
 Plug 'jiangmiao/auto-pairs'                      " Vim plugin, insert or delete brackets, parens, quotes in pair
 Plug 'tpope/vim-commentary'                      " Comment stuff out
