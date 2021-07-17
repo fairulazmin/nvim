@@ -18,4 +18,6 @@ Plug 'majutsushi/tagbar'                         " Vim plugin that displays tags
 Plug 'godlygeek/tabular'                         " Vim script for text filtering and alignment
 Plug 'bronson/vim-trailing-whitespace'           " Highlights trailing whitespace in red and provides :FixWhitespace to fix it
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  " Intellisense engine for Vim8 & Neovim, full language server protocol support as VSCode
+Plug 'https://github.com/Valloric/MatchTagAlways'
+Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 call plug#end()
