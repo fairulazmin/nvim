@@ -21,7 +21,7 @@
   // emmet
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "vue-htnl": "html",
+    "vue-html": "html",
     "plaintext": "pug"
   }
 }
