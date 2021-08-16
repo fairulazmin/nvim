@@ -20,4 +20,5 @@ Plug 'bronson/vim-trailing-whitespace'           " Highlights trailing whitespac
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  " Intellisense engine for Vim8 & Neovim, full language server protocol support as VSCode
 Plug 'https://github.com/Valloric/MatchTagAlways'
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
+Plug 'voldikss/vim-floaterm'                     " Terminal manager for (neo)vim
 call plug#end()
