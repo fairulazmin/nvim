@@ -21,4 +21,5 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}  " Intellisense engine for Vim8 
 Plug 'https://github.com/Valloric/MatchTagAlways'
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 Plug 'voldikss/vim-floaterm'                     " Terminal manager for (neo)vim
+Plug 'caenrique/nvim-toggle-terminal'            " Toggle terminal
 call plug#end()
