@@ -13,6 +13,6 @@ set laststatus=2          " always
 set clipboard=unnamedplus " ALWAYS use the clipboard for ALL operations (instead of interacting with the '+' and/or '*' registers explicitly)
 set incsearch             " While typing a search command, show where the pattern, as it was typed so far, matches.  The matched string is highlighted.
 set cursorline            " Highlight the screen line of the cursor with CursorLine
-set relativenumber        " Show the line number relative to the line with the cursor in front of each line.
+" set relativenumber        " Show the line number relative to the line with the cursor in front of each line.
 set belloff=all           " Stop annoying bell
 set background=dark       " Tell vim the background color
