@@ -16,3 +16,4 @@ set cursorline            " Highlight the screen line of the cursor with CursorL
 " set relativenumber        " Show the line number relative to the line with the cursor in front of each line.
 set belloff=all           " Stop annoying bell
 set background=dark       " Tell vim the background color
+set number

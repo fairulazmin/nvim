@@ -7,9 +7,9 @@ xnoremap kj <Esc>
 
 " TAB in general mode will move to text buffer
 nnoremap <TAB> gt
- 
+
 " SHIFT-TAB will go back
-nnoremap <S-TAB> gT 
+nnoremap <S-TAB> gT
 
 " Use alt + hjkl to resize windows
 nnoremap <silent> <M-j>    :resize -2<CR>
