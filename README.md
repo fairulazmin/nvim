@@ -49,6 +49,15 @@ check health status
 # Commands / Shortcuts
 
 ## [Vim](https://gist.github.com/tuxfight3r/0dca25825d9f2608714b)
+### NORMAL MODE
+```
+u                   -   undo
+<Ctrl>+r            -   redo
+:14                 -   go to line 14
+<Ctrl>+z            -   switch to terminal
+fg                  -   get back to vim screen
+```
+
 ### NORMAL MODE -> INSERT MODE
 ```
 cc                  -   Delete current line and enter insert mode (unlike dd which leaves you in normal mode)
@@ -64,6 +73,12 @@ D                   -   Delete until end of line
 ```
 ~                   -   Swap case under selection
 ```
+### VISUAL BLOCK
+```
+<Ctrl-v>            -   Enter visual block mode
+<Shift-I>           -   insert
+<Shift-A>           -   append
+```
 ### BUFFERS
 ```
 :ls                 -   list / show available buffers
@@ -72,6 +87,8 @@ D                   -   Delete until end of line
 :bp                 -   go to previous buffer
 :bd                 -   unload a buffer (close a file)
 :bw                 -   unload a buffer and deletes it
+:wa                 -   write all changed files (save all changes)
+:qa                 -   quit all (not if there are unsaved changes)
 ```
 ### TAB
 ```
@@ -111,10 +128,12 @@ gT                  -   go to previous tab
 kj                -   escape from insert/visual mode
 <Tab>             -   go to next buffer
 <Shift>+<Tab>     -   go to previous buffer
-<Alt>+j           -   decrease window size horizontally
-<Alt>+k           -   increase window size horizontally
-<Alt>+h           -   decrease window size vertically
-<Alt>+l           -   increase window size vertically
+<Alt>+j           -   reduce window size vertically
+<Alt>+k           -   enlarge window size vertically
+<Alt>+h           -   reduce window size horizontally
+<Alt>+l           -   enlarge window size horizontally
+<Alt+UP>          -   move line up
+<Alt-DOWN>        -   move line down
 <F9>              -   run python or javascript code
 ```
 
@@ -125,10 +144,14 @@ kj                -   escape from insert/visual mode
 s                 -   open and split current window horizontally
 E                 -   open and split current window vertically
 t                 -   open in new tab
-.                 -   toggle hidden files
+zh                -   toggle hidden files
 gf                -   gotoSource:file
 gb                -   gotoSource:buffer
-
+<Ctrl-o>          -   undo to previous buffer
+a                 -   addFile
+A                 -   addDirectory
+r                 -   rename
+df                -   delete file
 ```
 
 ## [Vim surround](https://github.com/tpope/vim-surround)
@@ -208,6 +231,18 @@ gc             -   comment out the selection in visual mode
 <F8>           -   open tagbar
 ```
 
+## Run Javascript or Python Code
+```
+<F9>           -   run javascript or python code
+```
+
+## [Bracey](https://github.com/turbio/bracey.vim)
+```
+:Bracey        -   start Bracey server
+:BraceyStop    -   shutdown the server and stop sending commands
+:BraceyReload  -   force the current web page to be reloaded
+```
+
 ## [Tabular](https://vimawesome.com/plugin/tabular)
 ```
 <Leader>a#     -   align region at #
@@ -229,7 +264,18 @@ gc             -   comment out the selection in visual mode
 <Leader>a'     -   align region at '
 ```
 
-## [Whitespace](https://vimawesome.com/plugin/trailing-whitespace)
+## [Vim Trailing Whitespace](https://github.com/bronson/vim-trailing-whitespace)
 ```
-:FixWhitespac  -   fix the whitespace errors
+:FixWhitespace -   fix the whitespace errors
+```
+
+## [Vim Floaterm](https://github.com/voldikss/vim-floaterm)
+```
+<F7>           -   Open a floaterm window
+<F12>          -   Open or hide the floaterm window
+```
+
+## [Nvim Toggle Terminal](https://github.com/caenrique/nvim-toggle-terminal)
+```
+<Ctrl>+z       -   Toggle terminal
 ```
