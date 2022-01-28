@@ -8,7 +8,7 @@ set splitright            " When on, splitting a window will put the new window 
 set tabstop=2             " Number of spaces that a <Tab> in the file counts for
 set shiftwidth=2
 set smartindent           " Do smart autoindenting when starting a new line
-set autoindent            " Copy indent from current line when starting a new line
+" set autoindent            " Copy indent from current line when starting a new line
 set laststatus=2          " always
 set clipboard=unnamedplus " ALWAYS use the clipboard for ALL operations (instead of interacting with the '+' and/or '*' registers explicitly)
 set incsearch             " While typing a search command, show where the pattern, as it was typed so far, matches.  The matched string is highlighted.
@@ -18,3 +18,4 @@ set belloff=all           " Stop annoying bell
 set background=dark       " Tell vim the background color
 set number
 set wrap
+set signcolumn=yes
