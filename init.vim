@@ -9,3 +9,4 @@ source $HOME/.config/nvim/vim-plug/coc-extensions.vim
 source $HOME/.config/nvim/vim-plug/coc-explorer.vim
 source $HOME/.config/nvim/vim-plug/sneak.vim
 source $HOME/.config/nvim/vim-plug/tagbar.vim
+source $HOME/.config/nvim/vim-plug/indentline.vim
