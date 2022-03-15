@@ -7,7 +7,9 @@
     "javascriptreact",
     "html",
     "json",
-    "python"
+    "python",
+    "prisma",
+    "graphql"
   ],
 
   // explorer
