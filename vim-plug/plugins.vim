@@ -58,10 +58,4 @@ Plug 'https://github.com/Valloric/MatchTagAlways'
 " Markdown Preview for (Neo)vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
-" Provides file detection and syntax highlighting support for Prisma 2
-Plug 'pantharshit00/vim-prisma'
-
-" provides GraphQL file detection, syntax highlighting, and indentation
-Plug 'jparise/vim-graphql'
-
 call plug#end()
