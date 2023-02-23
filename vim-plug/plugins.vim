@@ -58,4 +58,6 @@ Plug 'https://github.com/Valloric/MatchTagAlways'
 " Markdown Preview for (Neo)vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
+Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
+
 call plug#end()
